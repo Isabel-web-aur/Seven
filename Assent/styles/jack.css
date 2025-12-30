@@ -1,0 +1,62 @@
+*{padding:0;
+margin: 0;
+box-sizing: border-box;}
+
+body{
+    background-image: url(../images/fondo.jpg);
+   background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: rgb(138, 23, 76);
+    text-align: center;
+    font-family: 'tipo lego';
+    font-size: 4rem;
+}
+
+.container-fluid{
+     /* Lo convierte en un contenedor flexible */
+    direction: initial; /* Apila los hijos (content-wrap y footer) verticalmente */
+    min-height: 40;
+}
+
+@font-face{
+    font-family: 'tipo lego';
+    src: url('../fonts/tipolego/BitcountPropSingle-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'cursiva';
+    src: url('../fonts/cursiva/CrimsonText-BoldItalic.ttf') format('truetype');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer{
+   width: 100%;
+   padding: 20px;
+   text-align: center;
+    font-family: 'tipo cursiva';
+    color: rgb(233, 240, 236);
+}
